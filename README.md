@@ -5,14 +5,17 @@ Gestion de Proyectos**
 + pipfile
 + pyenv
 + pipfile
-**Organizacion de modulos**
-"__init__.py"
-"__main__.py"
-**Orientacion a objetos**
+
+Organizacion de modulos
++"__init__.py"
++"__main__.py"
+
+Orientacion a objetos
 +Introduccion
 +Decoradores e importancia
 +Uso de property(s)
-**Estructuras de datos y rendimiento**
+
+Estructuras de datos y rendimiento
 +Listas
 +Maps
 +Diccionarios
