@@ -4,7 +4,7 @@
 + virtualenv
 + pipfile
 + pyenv
-+ pipfile
++ pipenv
 
 **Organizacion de modulos**
   
