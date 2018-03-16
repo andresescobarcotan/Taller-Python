@@ -8,9 +8,9 @@
 
 **Organizacion de modulos**
   
-* __init__.py
+* `__init__.py`
   
-* __main__.py
+* `__main__.py`
 
 **Orientacion a objetos**  
 * Introduccion  
@@ -22,10 +22,12 @@
 * Maps  
 * Diccionarios  
 * List Comprenhension  
-# Taller-Python
 
 
-# Resumen
+
+## Resumen del taller
+
+###**Parte 1- Gestion de proyectos**
 Una vez explicado los distintos métodos de gestión de proyectos, y creado uno con pipenv se procederá a la creación de una aplicación
 En primer lugar se creará la clase FakeMonster, en un módulo separado para su exportación posterior  esta clase tendrá las siguientes propiedades:
    + *name - Nombre del monstruo*
@@ -33,6 +35,7 @@ En primer lugar se creará la clase FakeMonster, en un módulo separado para su 
    + *picture - Imagen del monstruo*
    + *location - Localizacion en Lat/Long del digimon para su posterior uso en un mapa*
 
+###**Parte 2- Orientacion a objetos **
 Una vez creado el modulo y probada su exportación, se pasará a la segunda parte donde se explicará la orientación a objetos.
 Ahí se creará una clase llamada *Digimon* que hereda de *FakeMonster*, con los siguientes requisitos:
   + *El nombre del digimon deberá terminar con el sufijo "mon" (Ej: Agu -> Agumon)*
@@ -47,6 +50,11 @@ Posteriormente se explican los decoradores y las properties
 Se dice que los Pokemon van a intentar hacerse pasar por Digimons para "colarse en el mundo real" por lo que tendremos que hacer uso de los decoradores para ello, es decir, ***sin modificar la clase hay que lograr que "Pikachu" sea "Pikachumon" y que si su nivel es 25 aparezca como Rookie***.
 
 
+###**Parte 3 - Estructuras de datos y perfomance**
+En la tercera parte se proporcionaran dos ficheros de texto `pokemon.txt`, y `digimon.txt` con los datos a insertar, estos estaran en texto plano, por lo que habrá que parsearlos.
+Se plantearán diferentes alternativas de almacenamiento, empezando por las listas, list comprenhesion,  continuando por los **diccionarios** y finalizando con el uso de la función map.
+
+Finalmente y usando **Jupyter y Mapbox** se usará para mostrar los distintos digimons y pokemons disfrazados en geojson, con ello **concluiría el taller**.
 
 
  
